@@ -1,17 +1,5 @@
-<html>
-   <head>
-      <title>DemoLaravel - @yield('title')</title>
-   </head>
-   <body>
-      @yield('content')
-   </body>
-</html>
-
-
-description = "Default layout"
-==
 <!DOCTYPE html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <title>vChurch -Redeemed Christian Church of God  {{ this.page.title }}</title>

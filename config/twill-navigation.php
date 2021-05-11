@@ -1,8 +1,9 @@
 <?php
 
-return 
+return  [
             'messages' => [
-                'title' => 'Messages',
+                'title' => 'Manage Page Content',
                 'module' => true
-            ];
+            ],
+        ];
 
