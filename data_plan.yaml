@@ -1,0 +1,16 @@
+Message:
+   -page:
+      - migration: string,
+      - formField: select,
+      - notes:
+
+   -title:
+      - migration: string,
+      - formField: input,
+      - notes:  simple tool set
+ 
+    -article:
+        - migration: string,
+        - formField: wysiwyg,
+        - notes:  simple tool set
+ 
