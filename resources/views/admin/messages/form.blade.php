@@ -10,67 +10,83 @@
     'options' => [
 
         [
-            'value' => welcome,
+            'value' => 'welcome',
             'label' => 'Welcome Message'
         ],
         [
-            'value' => about,
+            'value' => 'about',
             'label' => 'About Us'
         ],
         [
-            'value' => church,
+            'value' => 'church',
             'label' => 'Church Info'
         ],
         [
-            'value' => contact,
+            'value' => 'contact',
             'label' => 'Contact Info'
         ],
         [
-            'value' => feature,
+            'value' => 'feature',
             'label' => 'Features'
         ],
         [
-            'value' => giving,
+            'value' => 'giving',
             'label' => 'Online Giving'
         ],
         [
-            'value' => history,
+            'value' => 'history',
             'label' => 'History'
         ],
         [
-            'value' => how,
+            'value' => 'how',
             'label' => 'How it works'
         ],
         [
-            'value' => program,
+            'value' => 'program',
             'label' => 'Our Programs'
         ],
         [
-            'value' => training,
+            'value' => 'training',
             'label' => 'Training'
         ],
         [
-            'value' => giving,
+            'value' => 'giving',
             'label' => 'Online Giving'
         ]
     ]
 ])
 
+
 @formField('wysiwyg', [
     'name' => 'article',
     'label' => 'Sub-Page Content',
     'toolbarOptions' => [
-     [ 'header' => [1, 2, false] ],
-      'list-ordered',
-      'list-unordered',
-      [ 'indent' => '-1']
-      [ 'indent' => '+1' ]
-      ],
+      ['header' => [2, 3, 4, 5, 6, false]],
+      'bold',
+      'italic',
+      'underline',
+      'strike',
+      ["script" => "super"],
+      ["script" => "sub"],
+      "blockquote",
+      "code-block",
+      ['list' => 'ordered'],
+      ['list' => 'bullet'],
+      ['indent' => '-1'],
+      ['indent' => '+1'],
+      ["align" => []],
+      ["direction" => "rtl"],
+      'link',
+      "clean",
+    ],
     'placeholder' => 'Page Content',
     'maxlength' => 200,
     'editSource' => true,
     'note' => 'Fill Page Content',
-])
+ ])
+
+
+
 
 @formField('medias', [
     'name' => 'picture',
