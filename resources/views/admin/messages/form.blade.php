@@ -80,7 +80,7 @@
       "clean",
     ],
     'placeholder' => 'Page Content',
-    'maxlength' => 200,
+    
     'editSource' => true,
     'note' => 'Fill Page Content',
  ])
