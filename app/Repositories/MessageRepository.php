@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use A17\Twill\Repositories\Behaviors\HandleBlocks;
+//use A17\Twill\Repositories\Behaviors\HandleBlocks;
 
 use A17\Twill\Repositories\Behaviors\HandleMedias;
 
@@ -12,7 +12,7 @@ use App\Models\Message;
 
 class MessageRepository extends ModuleRepository
 {
-    use HandleBlocks, HandleMedias;
+    use  HandleMedias;//HandleBlocks,
 
     public function __construct(Message $model)
     {
