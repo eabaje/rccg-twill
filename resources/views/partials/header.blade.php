@@ -5,7 +5,7 @@
 				<div class="container">
 					<!-- Logo -->
 					<a href="#" class="landing-block-node-menu-logo-link navbar-brand u-header__logo p-0" target="_self">
-						<img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="{{'assets/images/rccg-for-web.png'|theme}}" width="131" alt="" srcset="{{'assets/images/rccg-for-web.png 2x'|theme}}" data-fileid="191" data-fileid2x="193" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" />
+						<img class="landing-block-node-menu-logo u-header__logo-img u-header__logo-img--main g-max-width-180" src="{{asset('assets/images/rccg-for-web.png')}}" width="131" alt="" srcset="{{asset('assets/images/rccg-for-web.png 2x')}" data-fileid="191" data-fileid2x="193" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;enabled&quot;:false}" />
 					</a>
 					<!-- End Logo -->
 

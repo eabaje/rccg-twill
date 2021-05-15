@@ -71,7 +71,7 @@
 			</div>
 
 			<div class="col-lg-5 text-center g-overflow-hidden align-self-end">
-				<img class="landing-block-node-img img-fluid js-animation slideInUp" src="{{assets('images/landing/PhoneImage3.png') }} " alt="" data-lazy-img="Y" data-src="{{assets('images/2x/mockup3.png') }} " loading="lazy" />
+				<img class="landing-block-node-img img-fluid js-animation slideInUp" src="{{asset('assets/images/landing/PhoneImage3.png') }} " alt="" data-lazy-img="Y" data-src="{{asset('assets/images/2x/mockup3.png') }} " loading="lazy" />
 			</div>
 		</div>
 	</div>

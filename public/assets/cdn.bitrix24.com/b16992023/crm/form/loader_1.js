@@ -87,7 +87,7 @@
                     (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(e);
                 },
             };
-             alert('hello');
+            
             window.b24form.Loader = new e();
         })();
         //# sourceMappingURL=form/embed/unit/script.map.js
@@ -97,7 +97,7 @@
                 id: "1",
                 sec: "c76mfc",
                 lang: "en",
-                address: "",
+                address: "http://vchurch-rccg.org/",
                 views: { click: { type: "panel", position: "right", vertical: "bottom" }, auto: { type: "popup", position: "center", vertical: "bottom", delay: 5 } },
                 data: {
                     language: "en",
@@ -114,14 +114,14 @@
                     date: { dateFormat: "MM/DD/YYYY", dateTimeFormat: "MM/DD/YYYY H:MI:SS T", sundayFirstly: true },
                     currency: { code: "USD", title: "US Dollar", format: "$#" },
                     fields: [
-                        { id: "CONTACT_NAME", name: "CONTACT_NAME", label: "Name", visible: true, required: true, multiple: false, type: "name", placeholder: null, value: "", items: [], bigPic: false },
-                        { id: "CONTACT_EMAIL", name: "CONTACT_EMAIL", label: "E-mail", visible: true, required: false, multiple: false, type: "email", placeholder: null, value: "", items: [], bigPic: false },
-                        { id: "CONTACT_PHONE", name: "CONTACT_PHONE", label: "Phone", visible: true, required: false, multiple: false, type: "phone", placeholder: null, value: "", items: [], bigPic: false },
-                        { id: "CONTACT_LAST_NAME", name: "CONTACT_LAST_NAME", label: "Amount", visible: true, required: false, multiple: false, type: "last-name", placeholder: null, value: "", items: [], bigPic: false },
+                          { id: "full_name", name: "full_name", label: "Full Name", visible: true, required: true, multiple: false, type: "name", placeholder: null, value: "", items: [], bigPic: false },
+                        { id: "email", name: "email", label: "E-mail", visible: true, required: false, multiple: false, type: "email", placeholder: null, value: "", items: [], bigPic: false },
+                        { id: "phone", name: "phone", label: "Phone", visible: true, required: false, multiple: false, type: "phone", placeholder: null, value: "", items: [], bigPic: false },
+                        { id: "amount", name: "amount", label: "Amount", visible: true, required: false, multiple: false, type: "last-name", placeholder: null, value: "", items: [], bigPic: false },
                         {
-                            id: "CONTACT_TYPE_ID",
-                            name: "CONTACT_TYPE_ID",
-                            label: "Apply To",
+                            id: "donation_type",
+                            name: "donation_type",
+                            label: "Donation Type",
                             visible: true,
                             required: true,
                             multiple: false,
@@ -129,22 +129,22 @@
                             placeholder: null,
                             value: null,
                             items: [
-                                { label: "TIthes", value: "CLIENT", selected: false },
-                                { label: "Offering", value: "SUPPLIER", selected: false },
-                                { label: "Thanksgiving Offering", value: "PARTNER", selected: false },
-                                { label: "Building Fund Offering / Pledge", value: "OTHER", selected: false },
+                                { label: "TIthes", value: "tithe", selected: false },
+                                { label: "Offering", value: "offering", selected: false },
+                                { label: "Thanksgiving Offering", value: "thanksgiving", selected: false },
+                                { label: "Building Fund Offering / Pledge", value: "pledge", selected: false },
                             ],
                             bigPic: false,
                         },
-                        { id: "CONTACT_BIRTHDATE", name: "CONTACT_BIRTHDATE", label: "Date Of Payment", visible: true, required: true, multiple: false, type: "date", placeholder: null, value: null, items: [], bigPic: false },
-                        { id: "CONTACT_SECOND_NAME", name: "CONTACT_SECOND_NAME", label: "Name Of Bank", visible: true, required: false, multiple: false, type: "second-name", placeholder: null, value: "", items: [], bigPic: false },
+                      { id: "payment_date", name: "payment_date", label: "Date Of Payment", visible: true, required: true, multiple: false, type: "date", placeholder: null, value: null, items: [], bigPic: false },
+                        { id: "bank", name: "bank", label: "Name Of Bank", visible: true, required: false, multiple: false, type: "second-name", placeholder: null, value: "", items: [], bigPic: false },
                     ],
                     agreements: [],
                     dependencies: [],
                     recaptcha: { use: false },
                 },
             },
-            // resources: { app: "app1.js", polyfill: "polyfill1.js" },
+             resources: { app: "app.js", polyfill: "polyfill1.js" },
         });
     })();
 })();

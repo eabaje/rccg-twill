@@ -11712,7 +11712,7 @@
         key: "getSubmitProvider24",
         value: function getSubmitProvider24(b24options) {
           var _this2 = this;
-
+          alert("This is the form");
           return function (form, formData) {
             var trace = b24options.usedBySiteButton && BX.SiteButton ? BX.SiteButton.getTrace() : window.b24Tracker && b24Tracker.guest ? b24Tracker.guest.getTrace() : null;
             formData.set('id', b24options.id);
@@ -11725,7 +11725,7 @@
               return response.json();
             }).then(function (data) {
               if (data.error) {
-                throw new Error(data.error_description || data.error);
+               // throw new Error(data.error_description || data.error);
               }
 
               data = data.result;
@@ -11738,6 +11738,7 @@
       }, {
         key: "initFormScript24",
         value: function initFormScript24(b24options) {
+          alert("This is the form");
           var _this3 = this;
 
           var options = b24options.data; // noinspection JSUnresolvedVariable

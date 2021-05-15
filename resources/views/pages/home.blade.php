@@ -1,6 +1,6 @@
-@extends('main')
+@extends('layout.master')
 
-// @section('title', '| About')
+
 
 @section('content')
        @include('includes.welcome' )
@@ -21,7 +21,7 @@
 
 		@include('includes.giving' )
 
-		@include('includes.how' )
+	
 
 		@include('includes.contact' )
 

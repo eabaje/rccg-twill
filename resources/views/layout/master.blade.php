@@ -2,15 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <title>vChurch -Redeemed Christian Church of God  {{ this.page.title }}</title>
-        <meta name="description" content="{{ this.page.meta_description }}">
-        <meta name="title" content="{{ this.page.meta_title }}">
+        <title>vChurch -Redeemed Christian Church of God  </title>
+        <meta name="description" content="">
+        <meta name="title" content="">
         <meta name="author" content="OctoberCMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="generator" content="OctoberCMS">
-        <link rel="icon" type="image/png" href="{{ assets('images/rccg.png')}}">
+        <link rel="icon" type="image/png" href="{{asset('assets/images/rccg.png')}}">
 
-        <link href="{{assets('js/main/core/css/core.min.css')}}" type="text/css"  rel="stylesheet" />
+        <link href="{{asset('assets/js/main/core/css/core.min.css')}}" type="text/css"  rel="stylesheet" />
 
       
 
@@ -154,14 +154,14 @@
 
 
 
-        <link href="{{assets('js/intranet/intranet-common.min.css') }}" type="text/css"  rel="stylesheet" />
-        <link href="{{assets('js/main/sidepanel/css/sidepanel.min.css') }}" type="text/css"  rel="stylesheet" />
-        <link href="{{assets('js/landing/css/landing_public.min.css') }}" type="text/css"  rel="stylesheet" />
-        <link href="{{assets('components/rccg/landing.pub/templates/.default/style.min.css') }}" type="text/css"  rel="stylesheet" />
-        <link href="{{assets('templates/landing24/assets/vendor/bootstrap/bootstrap.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
-        <link href="{{assets('templates/landing24/theme.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
-        <link href="{{assets('templates/landing24/assets/css/custom-grid.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
-        <link href="{{assets('templates/landing24/template_styles.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+        <link href="{{asset('assets/js/intranet/intranet-common.min.css') }}" type="text/css"  rel="stylesheet" />
+        <link href="{{asset('assets/js/main/sidepanel/css/sidepanel.min.css') }}" type="text/css"  rel="stylesheet" />
+        <link href="{{asset('assets/js/landing/css/landing_public.min.css') }}" type="text/css"  rel="stylesheet" />
+        <link href="{{asset('assets/components/rccg/landing.pub/templates/.default/style.min.css') }}" type="text/css"  rel="stylesheet" />
+        <link href="{{asset('assets/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+        <link href="{{asset('assets/templates/landing24/theme.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+        <link href="{{asset('assets/templates/landing24/assets/css/custom-grid.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
+        <link href="{{asset('assets/templates/landing24/template_styles.min.css') }}" type="text/css"  data-template-style="true"  rel="stylesheet" />
         
         
         
@@ -170,9 +170,9 @@
         
         
         
-        <link href="{{assets('templates/landing24/assets/vendor/icon-awesome/font-awesome.min.css') }}" type="text/css"   rel="stylesheet" />
-      <!--  <link rel="preload" href="{{assets('templates/landing24/assets/vendor/icon/fa/font.woff') }}" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
-        <link rel="preload" href="{{assets('templates/landing24/assets/vendor/icon/fa/font.woff2') }}" as="font" crossorigin="anonymous" type="font/woff2" crossorigin> -->
+        <link href="{{asset('assets/templates/landing24/assets/vendor/icon-awesome/font-awesome.min.css') }}" type="text/css"   rel="stylesheet" />
+      <!--  <link rel="preload" href="{{asset('assets/templates/landing24/assets/vendor/icon/fa/font.woff') }}" as="font" crossorigin="anonymous" type="font/woff" crossorigin>
+        <link rel="preload" href="{{asset('assets/templates/landing24/assets/vendor/icon/fa/font.woff2') }}" as="font" crossorigin="anonymous" type="font/woff2" crossorigin> -->
         
         <link 
         rel="preload" 
@@ -229,41 +229,22 @@
         </main> 
             
              @include('partials.footer')
-        <!-- Scripts 
+        
 
-       
-       
-        <script src="{{ [
-            assets('js/ui/dexie/dist/dexie.bitrix.bundle.min.js',
-            assets('js/main/core/core_ls.min.js',
-            assets('js/main/core/core_fx.min.js',
-            assets('js/main/core/core_frame_cache.min.js',
-            assets('js/landing/metrika/dist/metrika.bundle.min.js',
-
-            assets('js/main/pageobject/pageobject.min.js',
-            assets('js/main/sidepanel/manager.min.js',
-            assets('js/main/sidepanel/slider.min.js',
-            
-
-
-
-
-        ]|theme }}"></script>-->
-
-        <script type="text/javascript" src="{{assets('js/ui/dexie/dist/dexie.bitrix.bundle.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/core/core_ls.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/core/core_fx.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/core/core_frame_cache.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/landing/metrika/dist/metrika.bundle.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/pageobject/pageobject.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/sidepanel/manager.min.js') }}"></script>
-        <script type="text/javascript" src="{{assets('js/main/sidepanel/slider.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/ui/dexie/dist/dexie.bitrix.bundle.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/core/core_ls.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/core/core_fx.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/core/core_frame_cache.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/landing/metrika/dist/metrika.bundle.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/pageobject/pageobject.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/sidepanel/manager.min.js') }}"></script>
+        <script type="text/javascript" src="{{asset('assets/js/main/sidepanel/slider.min.js') }}"></script>
        
         <script>
             (function(w,d,u){
                 var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
                 var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-            })(window,document,"{{assets('cdn.bitrix24.com/b16992023/landing/assets/assets_webpack.js') }}");
+            })(window,document,"{{asset('assets/cdn.bitrix24.com/b16992023/landing/assets/assets_webpack.js') }}");
         </script>
        
          @yield('scripts')

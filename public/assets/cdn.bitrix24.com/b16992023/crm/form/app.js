@@ -13067,12 +13067,14 @@
                             babelHelpers.classPrivateFieldSet(
                                 this,
                                 pf,
-                                this.post(e.address + "/bitrix/services/main/ajax.php?action=crm.site.user.get", s)
+                                this.post(e.address + "api/offerings", s)
                                     .then(function (t) {
+                                             alert(t.json);
                                         return t.json();
                                     })
                                     .then(function (t) {
                                         if (t.error) {
+
                                             throw new Error(t.error_description || t.error);
                                         }
                                         var e = t.result;
@@ -13088,6 +13090,8 @@
                     {
                         key: "getSubmitProvider24",
                         value: function t(e) {
+
+                            // e.address + 
                             var n = this;
                             return function (t, r) {
                                 var i = e.usedBySiteButton && BX.SiteButton ? BX.SiteButton.getTrace() : window.b24Tracker && b24Tracker.guest ? b24Tracker.guest.getTrace() : null;
@@ -13098,13 +13102,14 @@
                                 r.set("entities", JSON.stringify(e.entities || []));
                                 r.set("security_sign", e.sign);
                                 return n
-                                    .post(e.address + "/bitrix/services/main/ajax.php?action=crm.site.form.fill", r)
+                                    .post("/bitrix/services/main/ajax.php?action=crm.site.form.fill", r)
                                     .then(function (t) {
                                         return t.json();
                                     })
                                     .then(function (t) {
                                         if (t.error) {
-                                            throw new Error(t.error_description || t.error);
+                                            alert(t.error_description);
+                                           // throw new Error(t.error_description || t.error);
                                         }
                                         t = t.result;
                                         return new Promise(function (e) {
@@ -13173,7 +13178,7 @@
             t.App = hf;
             t.Compatibility = ff;
         })((this.b24form = this.b24form || {}));
-        //# sourceMappingURL=https://b24-p9cw17.bitrix24.com/bitrix/js/crm/site/form/dist/app.bundle.map.js
+        //# sourceMappingURL=app.bundle.map.js
     })();
 
     (function () {

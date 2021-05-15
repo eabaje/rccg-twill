@@ -13,13 +13,13 @@
 						<div class="row no-gutters">
 							<div class="landing-block-node-card g-mb-12 g-mr-12">
 								<a href="#" class="landing-block-node-card-button">
-									<img class="landing-block-node-card-button-img g-height-42" src="{{assets('images/landing/app-store-badge.svg') }}" alt="Download app from App Store" data-lazy-img="Y" data-src="{{assets('images/landing/app-store-badge.svg') }}" loading="lazy" />
+									<img class="landing-block-node-card-button-img g-height-42" src="{{asset('assets/images/landing/app-store-badge.svg') }}" alt="Download app from App Store" data-lazy-img="Y" data-src="{{asset('assets/images/landing/app-store-badge.svg') }}" loading="lazy" />
 								</a>
 							</div>
 								
 							<div class="landing-block-node-card g-mb-12 g-mr-12">
 								<a href="#" class="landing-block-node-card-button">
-									<img class="landing-block-node-card-button-img g-height-42" src="{{assets('images/landing/google-play-badge.svg') }}" alt="Download app from Play Market" data-lazy-img="Y" data-src="{{assets('images/landing/google-play-badge.svg') }}" loading="lazy" />
+									<img class="landing-block-node-card-button-img g-height-42" src="{{asset('assets/images/landing/google-play-badge.svg') }}" alt="Download app from Play Market" data-lazy-img="Y" data-src="{{asset('assets/images/landing/google-play-badge.svg') }}" loading="lazy" />
 								</a>
 							</div>
 						</div>
@@ -28,7 +28,7 @@
 			</div>
 
 			<div class="col-md-6 col-lg-6 g-overflow-hidden align-self-end">
-				<img class="landing-block-node-img img-fluid js-animation slideInUp" src="{{assets('images/landing/phoneImage.png') }}" alt="" data-lazy-img="Y" data-src="{{assets('images/2x/mockup1.png') }}" loading="lazy" />
+				<img class="landing-block-node-img img-fluid js-animation slideInUp" src="{{asset('assets/images/landing/phoneImage.png') }}" alt="" data-lazy-img="Y" data-src="{{asset('assets/images/2x/mockup1.png') }}" loading="lazy" />
 			</div>
 		</div>
 	</div>
