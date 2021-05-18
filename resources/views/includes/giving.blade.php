@@ -19,8 +19,15 @@
 
 		<div class="row">
 			<div class="col-md-6 mx-auto">
+
+
+			
+
+
+
 				
-				<div class="bitrix24forms g-brd-white-opacity-0_6 u-form-alert-v3" data-b24form-use-style="Y" data-b24form-embed="" data-b24form-design="{&quot;dark&quot;:true,&quot;style&quot;:&quot;classic&quot;,&quot;shadow&quot;:false,&quot;compact&quot;:false,&quot;color&quot;:{&quot;primary&quot;:&quot;#fff&quot;,&quot;primaryText&quot;:&quot;#333&quot;,&quot;text&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;--primary00&quot;,&quot;fieldBorder&quot;:&quot;#ffffff00&quot;,&quot;fieldBackground&quot;:&quot;#00000011&quot;,&quot;fieldFocusBackground&quot;:&quot;#00000011&quot;},&quot;border&quot;:{&quot;top&quot;:false,&quot;bottom&quot;:false,&quot;left&quot;:false,&quot;right&quot;:false}}" data-b24form="1|c76mfc|{{asset('assets/cdn.bitrix24.com/b16992023/crm/form/loader_1.js') }}"><div class="g-landing-alert"></div></div>
+			<!--	--><div id="givingfrm" class="bitrix24forms g-brd-white-opacity-0_6 u-form-alert-v3" data-b24form-use-style="Y" data-b24form-embed="" data-b24form-design="{&quot;dark&quot;:true,&quot;style&quot;:&quot;classic&quot;,&quot;shadow&quot;:false,&quot;compact&quot;:false,&quot;color&quot;:{&quot;primary&quot;:&quot;#fff&quot;,&quot;primaryText&quot;:&quot;#333&quot;,&quot;text&quot;:&quot;#fff&quot;,&quot;background&quot;:&quot;--primary00&quot;,&quot;fieldBorder&quot;:&quot;#ffffff00&quot;,&quot;fieldBackground&quot;:&quot;#00000011&quot;,&quot;fieldFocusBackground&quot;:&quot;#00000011&quot;},&quot;border&quot;:{&quot;top&quot;:false,&quot;bottom&quot;:false,&quot;left&quot;:false,&quot;right&quot;:false}}" 
+					data-b24form="1|c76mfc|{{asset('assets/cdn.bitrix24.com/b16992023/crm/form/loader_1.js') }}"><div class="g-landing-alert"></div></div> 
 			</div>
 		</div>
 	</div>

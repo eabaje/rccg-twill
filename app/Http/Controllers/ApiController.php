@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class ApiController extends Controller
 {
+
+ 
+
+
+
     public function getAllOfferings() {
         // logic to get all records goes here
 
@@ -15,7 +20,12 @@ class ApiController extends Controller
   
       public function createOffering(Request $request) {
         // logic to create a offering record goes here
-        
+        $this->validate($request, [
+          'full_name' => 'required|string',
+          'email' => 'required|email',
+         // 'message' => 'required',
+
+        ]
             $offering = new Offering;
             $offering->full_name = $request->full_name;
             $offering->email = $request->email;

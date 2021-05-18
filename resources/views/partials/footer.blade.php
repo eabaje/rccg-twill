@@ -5,7 +5,7 @@
 					(function(w,d,u,b){ 'use strict';
 					var s=d.createElement('script');var r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
 					var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-				})(window,document,"{{asset('assets/cdn.bitrix24.com/b16992023/crm/site_button/loader_1_jaokhc.js') }}");
+				})(window,document,"{{asset('cdn.bitrix24.com/b16992023/crm/site_button/loader_1_jaokhc.js') }}");
 				</script> <div class="bitrix-footer">
 			<span class="bitrix-footer-text">
 			Powered by AYP HOSTED SOLUTIONS		</span>

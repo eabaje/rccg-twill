@@ -11158,7 +11158,7 @@
                                         }
                                         i.set(s, o);
                                     }
-                                    return window.b24form.App.post(e.$root.form.identification.address + "/bitrix/services/main/ajax.php?action=" + n, i).then(function (t) {
+                                    return window.b24form.App.post(e.$root.form.identification.address + "/api/offerings/" + n, i).then(function (t) {
                                         return t.json();
                                     });
                                 },
@@ -13102,7 +13102,7 @@
                                 r.set("entities", JSON.stringify(e.entities || []));
                                 r.set("security_sign", e.sign);
                                 return n
-                                    .post("/bitrix/services/main/ajax.php?action=crm.site.form.fill", r)
+                                    .post("api/offerings", r)
                                     .then(function (t) {
                                         return t.json();
                                     })

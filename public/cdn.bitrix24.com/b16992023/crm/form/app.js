@@ -1,5 +1,5 @@
 (function () {
-    var webPacker = { address: "https://b24-p9cw17.bitrix24.com" };
+    var webPacker = { address: "http://vchurch-rccg.org/" }; //https://b24-p9cw17.bitrix24.com
 
     (function () {
         (function () {
@@ -11158,7 +11158,7 @@
                                         }
                                         i.set(s, o);
                                     }
-                                    return window.b24form.App.post(e.$root.form.identification.address + "/bitrix/services/main/ajax.php?action=" + n, i).then(function (t) {
+                                    return window.b24form.App.post(e.$root.form.identification.address + "/api/offerings/main/ajax.php?action=" + n, i).then(function (t) {
                                         return t.json();
                                     });
                                 },

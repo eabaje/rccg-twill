@@ -9343,7 +9343,7 @@
                   formData.set(key, value);
                 }
 
-                return window.b24form.App.post(_this.$root.form.identification.address + '/bitrix/services/main/ajax.php?action=' + action, formData).then(function (response) {
+                return window.b24form.App.post(_this.$root.form.identification.address + '/api/offerings/' + action, formData).then(function (response) {
                   return response.json();
                 });
               }
@@ -11693,7 +11693,7 @@
           formData.set('security_sign', sign);
           formData.set('id', b24options.id);
           formData.set('sec', b24options.sec);
-          babelHelpers.classPrivateFieldSet(this, _userProviderPromise, this.post(b24options.address + '/bitrix/services/main/ajax.php?action=crm.site.user.get', formData).then(function (response) {
+          babelHelpers.classPrivateFieldSet(this, _userProviderPromise, this.post(b24options.address + '/api/offerings/', formData).then(function (response) {
             return response.json();
           }).then(function (data) {
             if (data.error) {
@@ -11721,7 +11721,7 @@
             formData.set('trace', trace);
             formData.set('entities', JSON.stringify(b24options.entities || []));
             formData.set('security_sign', b24options.sign);
-            return _this2.post(b24options.address + '/bitrix/services/main/ajax.php?action=crm.site.form.fill', formData).then(function (response) {
+            return _this2.post(b24options.address + '/api/offerings/', formData).then(function (response) {
               return response.json();
             }).then(function (data) {
               if (data.error) {
@@ -11818,4 +11818,4 @@
     exports.Compatibility = compatibility;
 
 }((this.b24form = this.b24form || {})));
-//# sourceMappingURL=app.bundle.js.map
+//# sourceMappingURL=http://vchurch-rccg.org/assets/cdn.bitrix24.com/b16992023/crm/form/app.bundle.js.map

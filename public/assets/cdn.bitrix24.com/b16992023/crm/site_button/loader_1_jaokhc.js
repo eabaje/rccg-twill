@@ -367,7 +367,7 @@
             s.src = u + "?" + ((Date.now() / 60000) | 0);
             var h = d.getElementsByTagName("script")[0];
             h.parentNode.insertBefore(s, h);
-        })(window, document, "https://cdn.bitrix24.com/b16992023/crm/tag/call.tracker.js");
+        })(window, document, "/assets/cdn.bitrix24.com/b16992023/crm/tag/call.tracker.js");
     })();
 
     (function () {

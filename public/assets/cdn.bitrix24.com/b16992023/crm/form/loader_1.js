@@ -97,7 +97,7 @@
                 id: "1",
                 sec: "c76mfc",
                 lang: "en",
-                address: "http://vchurch-rccg.org/",
+                address: "http://vchurch-rccg.org",
                 views: { click: { type: "panel", position: "right", vertical: "bottom" }, auto: { type: "popup", position: "center", vertical: "bottom", delay: 5 } },
                 data: {
                     language: "en",
